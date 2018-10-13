@@ -27,11 +27,11 @@ class DealApiQuery(Resource):
         get_specific_deal = client.get_deals(deal_id=id)
         return get_specific_deal
 
-    def post(self):
+    def put(self):
         args=request.args
         id=args['id']
         status=args['status'] 
-        update_deal = client.update_deal(deal_id=id, dealstatus = status)
+        update_deal = client.update_deal(deal_id=id)
         return update_deal
   
 
