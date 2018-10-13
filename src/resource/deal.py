@@ -4,6 +4,8 @@ import json
 from .client import Client
 from flask_restful import Resource
 from .testApi import Analysis
+from util import parse_params
+
 
 
 
@@ -27,6 +29,16 @@ class DealApiQuery(Resource):
         id = args['id']
         get_specific_deal = client.get_deals(deal_id=id)
         return get_specific_deal
+    @parse_params(
+            {'name': 'status', 'type': str, 'required': True},
+            {'name': 'deal_id', 'type': int, 'required': True}
+        )
+    def post(self, params):
+        status=params.status
+        id=params.deal_id       
+        update_deal = client.update_deal(deal_id=id, dealstatus = status)
+        return update_deal
+
     
     # def post
 
