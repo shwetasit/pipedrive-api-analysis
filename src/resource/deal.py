@@ -32,6 +32,7 @@ class DealApiQuery(Resource):
         id=args['id']
         status=args['status'] 
         update_deal = client.update_deal(deal_id=id, dealstatus = status)
+        return update_deal
   
 
     
