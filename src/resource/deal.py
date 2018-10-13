@@ -18,10 +18,8 @@ class DealListAPI(Resource):
         deals= Analysis.wonDeal(get_deals)
         return deals
 
-
-
-
-class DealApi(Resource):
+class DealApiQuery(Resource):
+    #query param
     def get(self):
         print("rest")
         args = request.args
@@ -29,11 +27,25 @@ class DealApi(Resource):
         id = args['id']
         get_specific_deal = client.get_deals(deal_id=id)
         return get_specific_deal
+    
+    # def post
 
-class WonApi(Resource):
-    def getwon(self):
-        get_specific_deal = client.get_deals_by_status(status="won")
-        return get_specific_deal
+    # def put
+    # def delete
+    
+  
+    #pathparam
+class DealApiParam(Resource):
+    def get(self, my_id):
+        print("inside!")
+        get_spe_deal=client.get_deals(deal_id=my_id)
+        return get_spe_deal
+
+
+# class WonApi(Resource):
+#     def get(self):
+#         get_specific_deal = client.get_deals_by_status(status="won")
+#         return get_specific_deal
 
     
 
