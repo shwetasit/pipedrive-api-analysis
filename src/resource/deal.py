@@ -14,7 +14,7 @@ client.set_token(api_token)
 class DealListAPI(Resource):
     def get(self):
         get_deals=client.get_deals()
-        deals= Analysis.wonDeal(get_deals)
+        deals= Analysis.openDeal(get_deals)
         return deals
 
 class DealApiQuery(Resource):
@@ -23,7 +23,7 @@ class DealApiQuery(Resource):
         print("rest")
         args = request.args
         print (args) # For debugging
-        id = args['id']
+        id = args['id'] 
         get_specific_deal = client.get_deals(deal_id=id)
         return get_specific_deal
 
@@ -35,19 +35,25 @@ class DealApiQuery(Resource):
         return update_deal
   
 
-    
-    # def post
 
-    # def put
-    # def delete
-    
-  
     #pathparam
 class DealApiParam(Resource):
     def get(self, my_id):
         print("inside!")
         get_spe_deal=client.get_deals(deal_id=my_id)
         return get_spe_deal
+
+class TopDeals(Resource):
+    def get(self):
+        print("top 10 deals")
+        args=request.args
+        size=args['size']
+        print("i sm here..size", size)
+        deals=client.get_deals()
+        topdeals=Analysis.topDeals(deals, size)
+        return topdeals
+
+    
 
 
 # class WonApi(Resource):

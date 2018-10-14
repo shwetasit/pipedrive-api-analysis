@@ -2,7 +2,7 @@ import os, logging
 
 DEBUG = True
 HOST = os.getenv('HOST')
-PORT = int(os.getenv('PORT', '5000'))
+PORT = int(os.getenv('PORT', '5002'))
 
 POSTGRES = {
     'user': os.getenv('POSTGRES_USER', 'postgres'),
@@ -20,4 +20,4 @@ logging.basicConfig(
     datefmt='%d/%m/%y %H:%M:%S',
 )
 
-SUPERHERO_API_URL = os.getenv('HOST', '127.0.0.1:5000')
+SUPERHERO_API_URL = os.getenv('HOST', '127.0.0.1:5002')

@@ -1,32 +1,10 @@
-{
-    "additional_data": {
-        "dropbox_email": "camery+deal39@pipedrivemail.com"
-    },
-    "data": {
-        "active": false,
+[
+    {
+        "active": true,
         "activities_count": 1,
-        "add_time": "2018-06-19 11:34:43",
-        "age": {
-            "d": 20,
-            "h": 16,
-            "i": 7,
-            "m": 3,
-            "s": 45,
-            "total_seconds": 9734865,
-            "y": 0
-        },
-        "average_stage_progress": 0,
-        "average_time_to_won": {
-            "d": 0,
-            "h": 0,
-            "i": 0,
-            "m": 0,
-            "s": 0,
-            "total_seconds": 0,
-            "y": 0
-        },
-        "cc_email": "camery+deal39@pipedrivemail.com",
-        "close_time": "2018-06-22 17:37:18",
+        "add_time": "2018-06-24 17:54:08",
+        "cc_email": "camery+deal3@pipedrivemail.com",
+        "close_time": null,
         "creator_user_id": {
             "active_flag": true,
             "email": "shwetasit@gmail.com",
@@ -42,64 +20,21 @@
         "email_messages_count": 0,
         "expected_close_date": null,
         "files_count": 0,
-        "first_won_time": "2018-10-10 03:42:28",
+        "first_won_time": null,
         "followers_count": 1,
-        "formatted_value": "$1,401",
-        "formatted_weighted_value": "$1,401",
-        "id": 39,
-        "last_activity": null,
+        "formatted_value": "$6,000",
+        "formatted_weighted_value": "$6,000",
+        "id": 3,
         "last_activity_date": null,
         "last_activity_id": null,
         "last_incoming_mail_time": null,
         "last_outgoing_mail_time": null,
         "lost_reason": null,
         "lost_time": null,
-        "next_activity": {
-            "active_flag": true,
-            "add_time": "2018-10-10 03:42:28",
-            "assigned_to_user_id": 6655190,
-            "company_id": 4237096,
-            "created_by_user_id": 6655190,
-            "deal_dropbox_bcc": "camery+deal39@pipedrivemail.com",
-            "deal_id": 39,
-            "deal_title": "Ms. Anita Hancock deal",
-            "done": false,
-            "due_date": "2018-10-10",
-            "due_time": "",
-            "duration": "",
-            "gcal_event_id": null,
-            "google_calendar_etag": null,
-            "google_calendar_id": null,
-            "id": 38,
-            "last_notification_time": null,
-            "last_notification_user_id": null,
-            "marked_as_done_time": "",
-            "note": "2016-08-08",
-            "notification_language_id": null,
-            "org_id": null,
-            "org_name": null,
-            "owner_name": "Shweta Saloni",
-            "participants": [
-                {
-                    "person_id": 38,
-                    "primary_flag": true
-                }
-            ],
-            "person_dropbox_bcc": "camery@pipedrivemail.com",
-            "person_id": 38,
-            "person_name": "Ms. Anita Hancock",
-            "reference_id": null,
-            "reference_type": "none",
-            "subject": "Call",
-            "type": "call",
-            "update_time": "2018-10-10 03:42:28",
-            "update_user_id": null,
-            "user_id": 6655190
-        },
         "next_activity_date": "2018-10-10",
         "next_activity_duration": null,
-        "next_activity_id": 38,
-        "next_activity_note": "2016-08-08",
+        "next_activity_id": 2,
+        "next_activity_note": "2018-06-22",
         "next_activity_subject": "Call",
         "next_activity_time": null,
         "next_activity_type": "call",
@@ -117,16 +52,16 @@
                     "value": ""
                 }
             ],
-            "name": "Ms. Anita Hancock",
+            "name": "Josh Ruiz",
             "phone": [
                 {
                     "primary": true,
                     "value": ""
                 }
             ],
-            "value": 38
+            "value": 3
         },
-        "person_name": "Ms. Anita Hancock",
+        "person_name": "Josh Ruiz",
         "pipeline_id": 1,
         "probability": null,
         "products_count": 0,
@@ -135,26 +70,10 @@
         "stage_change_time": null,
         "stage_id": 1,
         "stage_order_nr": 1,
-        "status": "won",
-        "stay_in_pipeline_stages": {
-            "order_of_stages": [
-                1,
-                2,
-                3,
-                4,
-                5
-            ],
-            "times_in_stages": {
-                "1": 0,
-                "2": 0,
-                "3": 0,
-                "4": 0,
-                "5": 0
-            }
-        },
-        "title": "Ms. Anita Hancock deal",
+        "status": "open",
+        "title": "Josh Ruiz deal",
         "undone_activities_count": 1,
-        "update_time": "2018-10-10 03:42:28",
+        "update_time": "2018-10-10 03:42:18",
         "user_id": {
             "active_flag": true,
             "email": "shwetasit@gmail.com",
@@ -164,41 +83,100 @@
             "pic_hash": null,
             "value": 6655190
         },
-        "value": 1401,
+        "value": 6000,
         "visible_to": "3",
-        "weighted_value": 1401,
+        "weighted_value": 6000,
         "weighted_value_currency": "USD",
-        "won_time": "2018-10-10 03:42:28"
+        "won_time": null
     },
-    "related_objects": {
-        "person": {
-            "38": {
-                "email": [
-                    {
-                        "primary": true,
-                        "value": ""
-                    }
-                ],
-                "id": 38,
-                "name": "Ms. Anita Hancock",
-                "phone": [
-                    {
-                        "primary": true,
-                        "value": ""
-                    }
-                ]
-            }
+    {
+        "active": true,
+        "activities_count": 1,
+        "add_time": "2018-06-21 11:56:29",
+        "cc_email": "camery+deal4@pipedrivemail.com",
+        "close_time": null,
+        "creator_user_id": {
+            "active_flag": true,
+            "email": "shwetasit@gmail.com",
+            "has_pic": false,
+            "id": 6655190,
+            "name": "Shweta Saloni",
+            "pic_hash": null,
+            "value": 6655190
         },
-        "user": {
-            "6655190": {
-                "active_flag": true,
-                "email": "shwetasit@gmail.com",
-                "has_pic": false,
-                "id": 6655190,
-                "name": "Shweta Saloni",
-                "pic_hash": null
-            }
-        }
-    },
-    "success": true
-}
+        "currency": "USD",
+        "deleted": false,
+        "done_activities_count": 0,
+        "email_messages_count": 0,
+        "expected_close_date": null,
+        "files_count": 0,
+        "first_won_time": null,
+        "followers_count": 1,
+        "formatted_value": "$100",
+        "formatted_weighted_value": "$100",
+        "id": 4,
+        "last_activity_date": null,
+        "last_activity_id": null,
+        "last_incoming_mail_time": null,
+        "last_outgoing_mail_time": null,
+        "lost_reason": null,
+        "lost_time": null,
+        "next_activity_date": "2018-10-10",
+        "next_activity_duration": null,
+        "next_activity_id": 5,
+        "next_activity_note": "2018-06-22",
+        "next_activity_subject": "Call",
+        "next_activity_time": null,
+        "next_activity_type": "call",
+        "notes_count": 0,
+        "org_hidden": false,
+        "org_id": null,
+        "org_name": null,
+        "owner_name": "Shweta Saloni",
+        "participants_count": 1,
+        "person_hidden": false,
+        "person_id": {
+            "email": [
+                {
+                    "primary": true,
+                    "value": ""
+                }
+            ],
+            "name": "JOYCE MILLER",
+            "phone": [
+                {
+                    "primary": true,
+                    "value": ""
+                }
+            ],
+            "value": 6
+        },
+        "person_name": "JOYCE MILLER",
+        "pipeline_id": 1,
+        "probability": null,
+        "products_count": 0,
+        "reference_activities_count": 0,
+        "rotten_time": null,
+        "stage_change_time": null,
+        "stage_id": 1,
+        "stage_order_nr": 1,
+        "status": "open",
+        "title": "JOYCE MILLER deal",
+        "undone_activities_count": 1,
+        "update_time": "2018-10-10 03:42:18",
+        "user_id": {
+            "active_flag": true,
+            "email": "shwetasit@gmail.com",
+            "has_pic": false,
+            "id": 6655190,
+            "name": "Shweta Saloni",
+            "pic_hash": null,
+            "value": 6655190
+        },
+        "value": 100,
+        "visible_to": "3",
+        "weighted_value": 100,
+        "weighted_value_currency": "USD",
+        "won_time": null
+    }
+]

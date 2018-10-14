@@ -6,16 +6,20 @@ from datetime import date
 import matplotlib.pyplot as plt
 
 
-def take(n, iterable):
-    "Return first n items of the iterable as a list"
-    return list(islice(iterable, n))
+# def take(n, iterable):
+#     "Return first n items of the iterable as a list"
+#     return list(islice(iterable, n))
 class Analysis:
     def callingDeals(deals):
         return (deals)
 
-    def topTenDeals(deals):
-        dat=take(2, deals['data'] )
-        return (list(dat))
+    def topDeals(deals, size):
+        print("***Top")
+        dat=deals['data']
+       
+        dat2=dat[:int(size)]
+        #dat=take(size, deals['data'] )
+        return (list(dat2))
 
     def openDeal(deals):
         dat=deals['data']
@@ -23,7 +27,8 @@ class Analysis:
         for d in dat:
             if d.get('status') == 'open':
                 dat2.append(d)
-        return dat2
+            dat3=take(2, dat2 )
+        return (list(dat3))
     
     def closeDeal(deals):
         dat=deals['data']
@@ -40,6 +45,7 @@ class Analysis:
         for d in dat:
             if d.get('status') == 'won':
                 dat2.append(d)
+            
         return dat2
 
     def pandasdemo(d):
